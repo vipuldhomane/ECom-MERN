@@ -16,10 +16,10 @@ const ProductCard = () => {
             Extraordinary Red Zari Weaving Banarasi Silk Wedding Wear Saree
           </p>
         </div>
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-2 pt-2">
           <p className="font-semibold">₹999.00</p>
           <p className="line-through opacity-50">₹3999.00</p>
-          <p className="text-green-600 font-semibold pt-2">75% OFF</p>
+          <p className="text-green-600 font-semibold ">75% OFF</p>
         </div>
       </div>
     </div>
