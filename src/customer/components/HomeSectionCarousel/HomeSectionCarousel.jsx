@@ -26,7 +26,7 @@ const HomeSectionCarousel = ({ data, sectionName }) => {
     .slice(0, 10)
     .map((product, index) => <HomeSectionCard product={product} key={index} />);
   return (
-    <div className="border p-4">
+    <div className="border p-4 ">
       <h2 className="text-2xl font-extrabold text-gray-900 text-center">
         {sectionName}
       </h2>
