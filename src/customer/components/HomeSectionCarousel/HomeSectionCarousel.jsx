@@ -30,61 +30,7 @@ const HomeSectionCarousel = ({ data, sectionName }) => {
       <h2 className="text-2xl font-extrabold text-gray-900 text-center">
         {sectionName}
       </h2>
-      {/* <div className="relative p-5">
-        <AliceCarousel
-          mouseTracking
-          items={items}
-          responsive={responsive}
-          controlsStrategy="responsive"
-          onSlideChanged={syncActiveIndex}
-          activeIndex={index}
-          infinite
-          disableButtonsControls
-        />
-
-        {index !== items.length - 5 && (
-          <Button
-            variant="contained"
-            className="z-50 bg-white"
-            onClick={slideNext}
-            sx={{
-              position: "absolute",
-              top: "8rem",
-              right: "0rem",
-              transform: "translate(50%) rotate(90deg)",
-              bgcolor: "white",
-              ":hover": {
-                bgcolor: "white",
-              },
-            }}
-          >
-            <KeyboardArrowLeftIcon
-              sx={{ transform: "rotate(90deg)", color: "black" }}
-            />
-          </Button>
-        )}
-        {index !== 0 && (
-          <Button
-            variant="contained"
-            className="z-50 bg-white"
-            onClick={slidePrev}
-            sx={{
-              position: "absolute",
-              top: "8rem",
-              left: "0rem",
-              transform: "translate(-50%) rotate(-90deg)",
-              bgcolor: "white",
-              ":hover": {
-                bgcolor: "white",
-              },
-            }}
-          >
-            <KeyboardArrowLeftIcon
-              sx={{ transform: "rotate(90deg)", color: "black" }}
-            />
-          </Button>
-        )}
-      </div> */}
+ 
       <Carousel
         additionalTransfrom={0}
         arrows
